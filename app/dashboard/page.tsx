@@ -185,9 +185,9 @@ export default function LinteraDashboard() {
               </div>
             </Link>
 
-            {/* KARTU 2 — GAME MATEMATIKA */}
-            <div
-              onClick={() => setActiveModal('game')}
+            {/* KARTU 2 — GAME MATEMATIKA (Navigasi ke Halaman Game Matematika) */}
+            <Link
+              href="/game"
               className="group cursor-pointer rounded-2xl p-4 sm:p-5 flex flex-col justify-between transition-all duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-95 bg-[#FFE4D6] border border-orange-100"
             >
               <div>
@@ -226,7 +226,7 @@ export default function LinteraDashboard() {
                   <ArrowRight className="w-4 h-4 stroke-[3]" />
                 </span>
               </div>
-            </div>
+            </Link>
 
             {/* KARTU 3 — SIMULASI INTERAKTIF */}
             <div

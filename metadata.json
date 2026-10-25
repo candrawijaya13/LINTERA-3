@@ -2,5 +2,7 @@
   "name": "LINTERA - Lingkaran Interaktif untuk Matematika",
   "description": "Halaman Welcome interaktif LINTERA bersama Luna sang rubah penjelajah, mengantarkan siswa SMA menjelajahi konsep matematika lingkaran secara menyenangkan.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
